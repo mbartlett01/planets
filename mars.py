@@ -2,4 +2,9 @@
 
 # Read in data
 import numpy as np
-np.read_txt('mars_elements.txt')
+element_data = np.read_txt('mars_elements.txt')
+
+# print out the first element from the data file
+print(element_data[0])
+
+
